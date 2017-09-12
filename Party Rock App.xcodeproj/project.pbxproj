@@ -54,14 +54,38 @@
 		C0BBDB1F1F67EE1A0067235C /* Party Rock App */ = {
 			isa = PBXGroup;
 			children = (
+				C0BBDB341F67FC2A0067235C /* Model */,
+				C0BBDB331F67FC1E0067235C /* Veiw */,
+				C0BBDB321F67F7B60067235C /* Controller */,
 				C0BBDB201F67EE1A0067235C /* AppDelegate.swift */,
-				C0BBDB221F67EE1A0067235C /* MainVC.swift */,
-				C0BBDB241F67EE1A0067235C /* Main.storyboard */,
 				C0BBDB271F67EE1A0067235C /* Assets.xcassets */,
+				C0BBDB241F67EE1A0067235C /* Main.storyboard */,
 				C0BBDB291F67EE1A0067235C /* LaunchScreen.storyboard */,
 				C0BBDB2C1F67EE1A0067235C /* Info.plist */,
 			);
 			path = "Party Rock App";
+			sourceTree = "<group>";
+		};
+		C0BBDB321F67F7B60067235C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0BBDB221F67EE1A0067235C /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C0BBDB331F67FC1E0067235C /* Veiw */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Veiw;
+			sourceTree = "<group>";
+		};
+		C0BBDB341F67FC2A0067235C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
