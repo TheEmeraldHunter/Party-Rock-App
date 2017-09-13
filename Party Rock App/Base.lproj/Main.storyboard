@@ -27,11 +27,21 @@
                                     <constraint firstAttribute="height" constant="164" id="PfZ-sH-RCU"/>
                                 </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hZn-7D-mkO">
+                                <rect key="frame" x="0.0" y="164" width="375" height="35"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="z1C-t1-uK2"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="jsn-gu-ybT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3Pv-my-5sd"/>
+                            <constraint firstItem="hZn-7D-mkO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4qD-VZ-5bC"/>
+                            <constraint firstAttribute="trailing" secondItem="hZn-7D-mkO" secondAttribute="trailing" id="Crr-df-2mU"/>
                             <constraint firstAttribute="trailing" secondItem="jsn-gu-ybT" secondAttribute="trailing" id="IIG-Ba-DIk"/>
+                            <constraint firstItem="hZn-7D-mkO" firstAttribute="top" secondItem="jsn-gu-ybT" secondAttribute="bottom" id="WAW-FZ-PgG"/>
                             <constraint firstItem="jsn-gu-ybT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZWt-FX-Wx2"/>
                         </constraints>
                     </view>
