@@ -6,8 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="still time.ttf">
+            <string>StillTime-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--MainVC-->
         <scene sceneID="tne-QT-ifu">
@@ -83,11 +89,23 @@
                                                         <constraint firstAttribute="width" constant="68" id="Ph2-Aa-Xkv"/>
                                                     </constraints>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Party Rock Anthem" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBS-pl-uXG">
+                                                    <rect key="frame" x="84" y="19" width="283" height="41"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="41" id="Q7r-ZC-t2K"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="30"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <color key="backgroundColor" red="0.53197262216404884" green="0.24738688662428313" blue="0.26455342223415562" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="oW9-0f-PO7" firstAttribute="centerY" secondItem="0lN-Od-TnM" secondAttribute="centerY" id="4Bq-UF-NOn"/>
+                                                <constraint firstItem="IBS-pl-uXG" firstAttribute="leading" secondItem="oW9-0f-PO7" secondAttribute="trailing" constant="8" id="Fyf-PC-6q0"/>
+                                                <constraint firstItem="IBS-pl-uXG" firstAttribute="trailing" secondItem="0lN-Od-TnM" secondAttribute="trailingMargin" id="Rv8-l5-fiN"/>
                                                 <constraint firstItem="oW9-0f-PO7" firstAttribute="leading" secondItem="0lN-Od-TnM" secondAttribute="leading" constant="8" id="TyN-Bh-mXk"/>
+                                                <constraint firstItem="IBS-pl-uXG" firstAttribute="centerY" secondItem="0lN-Od-TnM" secondAttribute="centerY" id="axn-T0-GxJ"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
