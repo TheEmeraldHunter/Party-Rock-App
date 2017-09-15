@@ -131,10 +131,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--VideoVC-->
         <scene sceneID="Zvu-Hu-GwR">
             <objects>
-                <viewController id="yta-F3-GLv" sceneMemberID="viewController">
+                <viewController id="yta-F3-GLv" customClass="VideoVC" customModule="Party_Rock_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vvk-fl-qvt"/>
                         <viewControllerLayoutGuide type="bottom" id="s6U-xS-bYH"/>
