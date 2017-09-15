@@ -127,7 +127,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="yta-F3-GLv" kind="showDetail" id="ewe-2e-Xfn"/>
+                        <segue destination="yta-F3-GLv" kind="showDetail" identifier="VideoVC" id="ewe-2e-Xfn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
