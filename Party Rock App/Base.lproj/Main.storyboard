@@ -126,6 +126,9 @@
                             <constraint firstItem="Jm4-pW-5Ax" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lNr-sq-CPT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="yta-F3-GLv" kind="showDetail" id="ewe-2e-Xfn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -147,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qD2-K6-EIQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="774" y="139"/>
+            <point key="canvasLocation" x="1028" y="139"/>
         </scene>
     </scenes>
     <resources>
