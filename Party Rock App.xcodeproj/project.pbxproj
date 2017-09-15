@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C039E9BA1F6A987300B16085 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C039E9B91F6A987300B16085 /* VideoVC.swift */; };
 		C0B5C2431F6A8513008E5397 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0B5C2421F6A8513008E5397 /* still time.ttf */; };
 		C0BBDB211F67EE1A0067235C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BBDB201F67EE1A0067235C /* AppDelegate.swift */; };
 		C0BBDB231F67EE1A0067235C /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BBDB221F67EE1A0067235C /* MainVC.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C039E9B91F6A987300B16085 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoVC.swift; path = ../VideoVC.swift; sourceTree = "<group>"; };
 		C0B5C2421F6A8513008E5397 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "still time.ttf"; path = "../still_time/still time.ttf"; sourceTree = "<group>"; };
 		C0BBDB1D1F67EE1A0067235C /* Party Rock App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Party Rock App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BBDB201F67EE1A0067235C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				C0BBDB221F67EE1A0067235C /* MainVC.swift */,
+				C039E9B91F6A987300B16085 /* VideoVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C039E9BA1F6A987300B16085 /* VideoVC.swift in Sources */,
 				C0BBDB231F67EE1A0067235C /* MainVC.swift in Sources */,
 				C0BBDB211F67EE1A0067235C /* AppDelegate.swift in Sources */,
 			);
