@@ -10,6 +10,8 @@ import UIKit
 
 class PartyCell: UITableViewCell {
 
+    @IBOutlet weak var SongName: UILabel!
+    @IBOutlet weak var TableCellVideoImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
