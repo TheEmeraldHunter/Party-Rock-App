@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+class PartyRock {
+    private var _imageURL: String!
+}
