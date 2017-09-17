@@ -111,6 +111,8 @@
                                         <connections>
                                             <outlet property="SongName" destination="IBS-pl-uXG" id="nz7-Nr-8FI"/>
                                             <outlet property="TableCellVideoImage" destination="oW9-0f-PO7" id="7Kj-or-GlY"/>
+                                            <outlet property="VideoPreviewImage" destination="oW9-0f-PO7" id="V1V-UY-TEh"/>
+                                            <outlet property="VideoTitle" destination="IBS-pl-uXG" id="1gY-27-F9Q"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
