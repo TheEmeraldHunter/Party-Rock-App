@@ -8,7 +8,13 @@
 
 import UIKit
 
-class MainVC: UIViewController {
+class MainVC: UIViewController, UITableViewDelegate {
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    
+    var PartyRocks = [PartyRock]()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

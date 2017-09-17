@@ -19,8 +19,9 @@ class PartyCell: UITableViewCell {
         // Initialization code
     }
 
-    func UptadeUI() {
-    
+    func UptadeUI(partyRock: PartyRock) {
+VideoTitle.text = partyRock.videoTitle
+   //TODO: Set image from url
     }
 
 
