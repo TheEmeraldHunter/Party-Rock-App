@@ -18,7 +18,7 @@
         <!--MainVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="Party_Rock_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="Party Rock App" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -111,8 +111,8 @@
                                         <connections>
                                             <outlet property="SongName" destination="IBS-pl-uXG" id="nz7-Nr-8FI"/>
                                             <outlet property="TableCellVideoImage" destination="oW9-0f-PO7" id="7Kj-or-GlY"/>
-                                            <outlet property="VideoPreviewImage" destination="oW9-0f-PO7" id="V1V-UY-TEh"/>
-                                            <outlet property="VideoTitle" destination="IBS-pl-uXG" id="1gY-27-F9Q"/>
+                                            <outlet property="VideoPreviewImage" destination="oW9-0f-PO7" id="oe3-X7-iKy"/>
+                                            <outlet property="VideoTitle" destination="IBS-pl-uXG" id="AlD-B3-xRL"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
