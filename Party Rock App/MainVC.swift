@@ -35,9 +35,12 @@ class MainVC: UIViewController, UITableViewDataSource, UITableViewDelegate  {
             
             return cell
             
-        }
+        }else {
         
         return UITableViewCell()
+            
+        }
+        
         }
     
     
