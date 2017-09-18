@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainVC: UIViewController, UITableViewDelegate {
+class MainVC: UIViewController, UITableViewDataSource, UITableViewDelegate  {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -19,25 +19,33 @@ class MainVC: UIViewController, UITableViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         tableView.delegate = self
         tableView.dataSource = self
     }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
     
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) -> UITableViewCell {
-  
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "Party Cell", for: indexPath) as? PartyCell{
         
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "Party Cell", for: indexPath) as? PartyCell{
+            
+            let partyRock = PartyRocks[indexPath.row]
+            
+            cell.UptadeUI(partyRock: partyRock)
+            
+            return cell
+            
         }
         
         return UITableViewCell()
-        
-    }
-
-
+        }
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return PartyRocks.count
+        return PartyRocks.count
     }
 
-
+    
+    
 }
 
