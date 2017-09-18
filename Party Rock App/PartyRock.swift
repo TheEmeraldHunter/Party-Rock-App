@@ -28,7 +28,7 @@ class PartyRock {
         return _videoTitle
     }
     
-    init(imageURL: String, videoURL: String, videoTitle: String) {
+ init(imageURL: String, videoURL: String, videoTitle: String) {
         _imageURL = imageURL
         _videoURL = videoURL
         _videoTitle = videoTitle

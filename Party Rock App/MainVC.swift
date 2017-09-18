@@ -20,6 +20,9 @@ class MainVC: UIViewController, UITableViewDataSource, UITableViewDelegate  {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        let p1 = PartyRock(imageURL: "", videoURL: "", videoTitle: "")
+        
+        
         tableView.delegate = self
         tableView.dataSource = self
     }
